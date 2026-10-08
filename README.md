@@ -116,14 +116,6 @@ Example response:
 - `notice`
 - `game_end`
 
-## Deployment Checklist
-
-- [ ] Set `NODE_ENV=production`
-- [ ] Set `CORS_ORIGIN=https://tenbin.vercel.app`
-- [ ] Ensure `.env` is ignored by Git
-- [ ] Confirm the health route works
-- [ ] Test Socket.io connection from the frontend
-- [ ] Monitor logs in Back4App
 
 ## License
 
