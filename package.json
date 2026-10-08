@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node --watch server.js",
     "dev": "node server.js",
+    "prod": "pm2 start server.js --name tenbin-backend",
+    "prod:restart": "pm2 restart tenbin-backend",
+    "prod:stop": "pm2 stop tenbin-backend",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -20,6 +23,7 @@
     "escape-html": "^1.0.3",
     "express": "^5.2.1",
     "lodash": "^4.18.1",
+    "pm2": "^5.11.3",
     "socket.io": "^4.8.3"
   }
 }
