@@ -9,7 +9,6 @@ A real-time multiplayer game server built with Express, Socket.io, and Node.js.
 - Multi-player game room management
 - Automatic scoring and winner calculation
 - Live game state broadcasting
-- Health check endpoint
 - Production-ready CORS settings for frontend deployments
 
 ## Prerequisites
@@ -52,20 +51,7 @@ npm run prod:restart
 npm run prod:stop
 ```
 
-### Back4App Deployment
-
-1. Create a `.env` file using `.env.example`.
-2. Set the frontend origin to your deployed Vercel app:
-
-```env
-PORT=3000
-NODE_ENV=production
-CORS_ORIGIN=https://tenbin.vercel.app
-```
-
 3. Push this repository to GitHub.
-4. Connect the repo in Back4App and deploy.
-5. Keep the `Procfile` in the project root.
 
 ## Environment Variables
 
