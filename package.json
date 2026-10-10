@@ -19,6 +19,7 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "escape-html": "^1.0.3",
     "express": "^5.2.1",
     "lodash": "^4.18.1",
