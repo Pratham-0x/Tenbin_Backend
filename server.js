@@ -10,9 +10,9 @@ const app = express();
 const server = http.createServer(app);
 const PORT = Number(process.env.PORT || 3000);
 const NODE_ENV = process.env.NODE_ENV || 'development';
-const CORS_ORIGIN = process.env.CORS_ORIGIN || '*';
+const CORS_ORIGIN = process.env.CORS_ORIGIN || 'https://tenbinn.vercel.app';
 
-const allowedOrigins = (CORS_ORIGIN === '*')
+const allowedOrigins = (CORS_ORIGIN === 'https://tenbinn.vercel.app')
   ? true
   : CORS_ORIGIN.split(',').map((origin) => origin.trim());
 
